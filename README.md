@@ -35,6 +35,9 @@ Probably still not included, but at some point of developpement my model was abl
 - Generate image
 - Reply using tts (gpt-so-vit)
 
+Why it got removed?
+- My computer isn't enough powerfull to allow *quick* llm inference while offering tools, and all the current function, if I have one of those.
+
 ---
 # Setup
 
@@ -48,3 +51,14 @@ If you want to see a live version with my own chatbot, hmu on discord too!
 
 If you're a great dev and want to help the project, then you can! The project isn't moving as fast as I want (because of studies and personnal life), but like I said, its still 2 years of project ongoing!
 (explaining why its *not getting lots of update*, which actually I may forgot to push every modification lol, just ask me on discord and I'll tell you everything ^^)
+
+---
+ # My personnal Current Setup
+
+ Wondering if it could work on your personnal computer? Well, for my side, with some optimisation (mostly automated with Ollama already), I can run the bot on my machine:
+ - Ryzen 5 6-core
+ - RTX 3050 8gb
+ - Ram 32gb
+(not that crazy but still not thaaaat baaad)
+
+If you have more then this, you can run it without any trouble!
