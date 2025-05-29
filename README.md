@@ -14,6 +14,10 @@ Based on the given model, my script will fetch its capabilities:
 - If the raw model have tool_calls, it'll be able to do some cool function
 - Each file attached to a message or a replied message are 'analysed', allowing the model to read(raw, description or transcript): .pdf .pptx .docx .txt .md .mp3 .ogg .wav (upcoming a day: video and gifs)
 
+Also, the model use a custom made model to judge incomming message and tell if the bot should reply or not (instead of always replying to each message).
+Better solution can be found, as its trained locally on small datasets, not really good.
+You can downloaded it here: [neoluigi/Importance_Regressor](https://huggingface.co/neoluigi/Importance_Regressor/tree/main)
+
 ---
 # Tool Calls!
 
